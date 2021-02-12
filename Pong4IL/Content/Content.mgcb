@@ -92,3 +92,9 @@
 /processorParam:TextureFormat=Color
 /build:pileczka2.png
 
+#begin przegrana.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:przegrana.mp3
+
