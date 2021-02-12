@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0OEX136Gh8Z8zhhbJ2aYJOy12kPIRA+2xPh7RRbzCS4=</dsig:DigestValue>
+        <dsig:DigestValue>wRiHvJrsJBgCTZPfNTiz51kcYX8KL1HgLJ4kvRyntlM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -172,6 +172,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>IqB5bHGGIXxdDcKW7XlR78pLkhxCcRQdTLWro/gGj+E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\dzwiek.wma" size="228014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3zRggjRPTQpGLVkhoqZSFzA223x46TdXCxsowWKtXR0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\dzwiek.xnb" size="124">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jSjf03qwgBkkrUnhFpw3+3s9wFcDk2PKPH48iNL7ayk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\paletka_pong.xnb" size="4709">

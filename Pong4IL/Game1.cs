@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System;
 
 namespace Pong4IL
@@ -66,6 +67,8 @@ namespace Pong4IL
 
         SoundEffect effect;
 
+        Song song;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -129,6 +132,10 @@ namespace Pong4IL
             napisPunkty = Content.Load<SpriteFont>("czcionka_wynik");
             aktualnaTeksturaPilki = teksturaAdriana;
             effect = Content.Load<SoundEffect>("Damian");
+            song = Content.Load<Song>("dzwiek");
+            MediaPlayer.IsRepeating = true;
+            MediaPlayer.Volume = 0.3f;
+            MediaPlayer.Play(song);
         }
 
         /// <summary>
