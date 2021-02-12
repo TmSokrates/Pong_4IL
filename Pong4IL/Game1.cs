@@ -66,6 +66,7 @@ namespace Pong4IL
         string info = "Wygrales";
 
         SoundEffect effect;
+        SoundEffect przegrana;
 
         Song song;
 
@@ -133,6 +134,7 @@ namespace Pong4IL
             aktualnaTeksturaPilki = teksturaAdriana;
             effect = Content.Load<SoundEffect>("Damian");
             song = Content.Load<Song>("dzwiek");
+            przegrana = Content.Load<SoundEffect>("przegrana");
             MediaPlayer.IsRepeating = true;
             MediaPlayer.Volume = 0.3f;
             MediaPlayer.Play(song);
@@ -305,6 +307,7 @@ namespace Pong4IL
                 {
                     info = "Przegrales";
                     czyGramy = false;
+                    przegrana.Play();
                 }
             }
             if (Keyboard.GetState().IsKeyDown(Keys.R))
